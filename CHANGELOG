@@ -2,6 +2,8 @@ CHANGELOG
 
 ver = '3.3'
 
+// An Attempt For Java Changelog Analysis //
+
 //*
 Verson 1 : Get, read data
 1.1 : Stores data (sepcifically temp) to list
