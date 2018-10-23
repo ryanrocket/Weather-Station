@@ -3,6 +3,8 @@
 
 ## You can view data on: https://tinyurl.com/y8lo5j59 ##
 
+## Some Sensitive Data Was Removed With Respect To The Owner ##
+
 # IMPORTS #
 import Adafruit_DHT
 import time
@@ -31,15 +33,11 @@ global hour
 global pic
 
 # IO CLIENT #
-ADAFRUIT_IO_KEY = '63100614b00c4c5495691d33336f84dd'
-ADAFRUIT_IO_USERNAME = 'PiGrammer'
+ADAFRUIT_IO_KEY = 'UNDISCLOSED'
+ADAFRUIT_IO_USERNAME = 'UNDISCLOSED'
 
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
-tem = aio.feeds('tem')
-hum = aio.feeds('hum')
-message = aio.feeds('message')
-prediction = aio.feeds('prediction')
-icon = aio.feeds('icon')
+## FEEDS UNDISCLOSED ##
 hour = []
 
 # VARIABLES #
@@ -66,12 +64,12 @@ def get():
     
         logging.basicConfig(filename='data.log',level=logging.DEBUG)
 
-        url = 'https://weatherstation.wunderground.com/weatherstation/updateweatherstation.php?'
-        ID = 'KMDCROFT16'
-        PWD = 's4x00slc'
+        url = 'https://weatherstation.wunderground.com/UNDISCLOSED'
+        ID = 'UNDISCLOSED'
+        PWD = 'UNDISCLOSED'
         creds = ('ID=' + ID + "&PASSWORD=" + PWD)
         date_str = "&dateutc=now"
-        action_str = "&action=updateraw"
+        action_str = "UNDISCLOSED"
         
         def consoleout():
             print("Humidity: ", humidity, " %")
