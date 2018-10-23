@@ -2,23 +2,22 @@ CHANGELOG
 
 ver = '3.3'
 
-// An Attempt For Java Changelog Analysis //
+INFO:root: An Attempt For Live SSH Changelog Analysis
 
-//*
-Verson 1 : Get, read data
-1.1 : Stores data (sepcifically temp) to list
-1.2 : Creates Average of list
-1.3 : Uploads data to WUNDER servers
-1.4 : Uploads data to MySQL (Not included in repository)
-1.5 : Uploads data to Adafruit.IO
-Version 2: Collects, uploads, creates prediction every 15 minutes for 48hr intervals with 1 hour breaks
-2.1 : Prediction method updated
-2.2 : Prediction methos updated
-2.3 : Updates C to F equation
-2.4 : Data uploads more efficiently
-2.8 : Script Re-Organized
-Version 2: Project is now clean and uploads correct values of Temp and Humidity to mutliples databases.
-3.1 : Method used to retrieve data was redone
-3.2 : Telemtry system operation order re-organized
-3.3 : Fixed data processing algorithms and fixed time values
-*//
+DEBUG:root: Verson 1 : Get, read data
+DEBUG:root: 1.1 : Stores data (sepcifically temp) to list
+DEBUG:root: 1.2 : Creates Average of list
+DEBUG:root: 1.3 : Uploads data to WUNDER servers
+DEBUG:root: 1.4 : Uploads data to MySQL (Not included in repository)
+DEBUG:root: 1.5 : Uploads data to Adafruit.IO
+DEBUG:root: Version 2: Collects, uploads, creates prediction every 15 minutes for 48hr intervals with 1 hour breaks
+DEBUG:root: 2.1 : Prediction method updated
+DEBUG:root: 2.2 : Prediction methos updated
+DEBUG:root: 2.3 : Updates C to F equation
+DEBUG:root: 2.4 : Data uploads more efficiently
+DEBUG:root: 2.8 : Script Re-Organized
+DEBUG:root: Version 2: Project is now clean and uploads correct values of Temp and Humidity to mutliples databases.
+DEBUG:root: 3.1 : Method used to retrieve data was redone
+DEBUG:root: 3.2 : Telemtry system operation order re-organized
+DEBUG:root: 3.3 : Fixed data processing algorithms and fixed time values
+
